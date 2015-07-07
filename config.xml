@@ -13,7 +13,7 @@
         PhoneGap Team
     </author>
 
-    <gap:plugin name="com.phonegap.plugins.barcodedemo"/>
+    <gap:plugin name="com.phonegap.plugins.scannerdemo"/>
 
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="debug-server" required="true">
