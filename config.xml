@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.ryanw.barcodedemo"
         version   = "2.0.0">
-    <name>Scanner Demo</name>
+    <name>Priester/Vista Inventory</name>
 
     <description>
         Scans barcodes.
@@ -13,7 +13,7 @@
         PhoneGap Team
     </author>
 
-    <gap:plugin name="com.phonegap.plugins.Priester/Vista Inventory"/>
+    <gap:plugin name="com.phonegap.plugins.barcodedemo"/>
 
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="debug-server" required="true">
