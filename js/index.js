@@ -30,7 +30,6 @@ var app = {
         document.getElementById('scan').addEventListener('click', function(){
         order_id=$(this).attr("order_id");
         item_id=$(this).attr("item_id");
-//alert(order_id+'  '+item_id);
         },
         
         this.scan, false);
