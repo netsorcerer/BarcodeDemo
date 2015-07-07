@@ -52,13 +52,13 @@ var app = {
     },
 
     scan: function() {
-        console.log('scanning');
+     order_id=$(this).attr("order_id");
+alert(order_id);
+       console.log('scanning');
         
         var scanner = cordova.require("cordova/plugin/BarcodeScanner");
 
         scanner.scan( function (result) { 
-    order_id=$(this).attr("order_id");
-alert(order_id);
             alert("We got a barcode\n" + 
             "Result: " + result.text + "\n" + 
             "Format: " + result.format + "\n" + 
