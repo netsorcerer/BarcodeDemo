@@ -27,7 +27,13 @@ var app = {
     // `load`, `deviceready`, `offline`, and `online`.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-        document.getElementById('scan').addEventListener('click', this.scan, false);
+        document.getElementById('scan').addEventListener('click', function(){
+     order_id=$(this).attr("order_id");
+     item_id=$(this).attr("item_id");
+alert(order_id+'  '+item_id);
+        },
+        
+        this.scan, false);
         document.getElementById('encode').addEventListener('click', this.encode, false);
     },
 
