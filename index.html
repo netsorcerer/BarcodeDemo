@@ -54,7 +54,7 @@ function httpGet(theUrl)
 {
     var url=location.search;
     var action="not set";
-    if (url.indexOf("action")==0)  {
+    if (url.indexOf("action")===-1)  {
         action="set";
    $.ajax({url:"http://pwaportal.com/apps/inventory/inventory_ajax.php?view=main",success:function(result){
     $("#result").html(result);
