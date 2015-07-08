@@ -4,7 +4,7 @@
         id        = "com.phonegap.ryanw.barcodedemo"
         version   = "2.0.0">
     <name>Priester/Vista Inventory</name>
-
+<preference name="EnableViewportScale" value="true" />
     <description>
         Scans barcodes.
     </description>
