@@ -101,3 +101,27 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+a.button1    {
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 1px 2px;
+/*    height: 17px;    */
+    margin: 2px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    background-image: url("../images/pp_button_bg.jpg");
+    background-repeat:repeat-x;
+}
+
+
+a.button1:active {
+    border: 1px solid black;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: green;
+    background-image: none;
+    background-color: rgb(230,220,210);
+}
