@@ -27,7 +27,7 @@
     <preference name="fullscreen"       value="true" />
     <preference name="webviewbounce"    value="false" />
 
-    <icon src="https://camo.githubusercontent.com/eb966df1524576e02a56ca00f42729bcfb46879e/687474703a2f2f707761706f7274616c2e636f6d2f696d616765732f69636f6e2e706e67" />
+    <icon src="![phpf336](https://cloud.githubusercontent.com/assets/7559988/8563730/9f27474c-2508-11e5-85ab-b952c9a498db.png)" />
     <icon src="![phpf336](https://cloud.githubusercontent.com/assets/7559988/8563730/9f27474c-2508-11e5-85ab-b952c9a498db.png)"   gap:platform="android"    gap:density="ldpi" />
     <icon src="![phpf336](https://cloud.githubusercontent.com/assets/7559988/8563730/9f27474c-2508-11e5-85ab-b952c9a498db.png)"   gap:platform="android"    gap:density="mdpi" />
     <icon src="![phpf336](https://cloud.githubusercontent.com/assets/7559988/8563730/9f27474c-2508-11e5-85ab-b952c9a498db.png)"   gap:platform="android"    gap:density="hdpi" />
