@@ -27,7 +27,7 @@
     <preference name="fullscreen"       value="true" />
     <preference name="webviewbounce"    value="false" />
 
-    <icon src="![phpf336](https://cloud.githubusercontent.com/assets/7559988/8563730/9f27474c-2508-11e5-85ab-b952c9a498db.png)" />
+    <icon src="![phpf336](https://cloud.githubusercontent.com/assets/7559988/8563730/9f27474c-2508-11e5-85ab-b952c9a498db.png)" gap:role="default"/>
 
     <gap:splash src="http://pwaportal.com/images/Priester_logo_gif"  gap:platform="android" gap:density="ldpi" />
     <gap:splash src="http://pwaportal.com/images/Priester_logo_gif"  gap:platform="android" gap:density="mdpi" />
